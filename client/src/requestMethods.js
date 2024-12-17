@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api/";
+const BASE_URL = "https://ecommerce-stripejs-api.onrender.com";
 //const TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZTU0YmRlYzIxNmRiZjNlNDdlYTEzOCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcyNzY4NjYwNCwiZXhwIjoxNzI3OTQ1ODA0fQ.8OwiLJ1PZgEMrDH_-fhVnNDQApnlK5D10zhu-ghkrEw"
 //   JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user).currentUser
 //     .accessToken || "";
