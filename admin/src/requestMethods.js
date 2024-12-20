@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://ecommerce-stripejs-api.onrender.com/api/users";
+const BASE_URL = "https://ecommerce-stripejs-api.onrender.com/api";
 const TOKEN = JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user).currentUser.accessToken;
 
 export const publicRequest = axios.create({
